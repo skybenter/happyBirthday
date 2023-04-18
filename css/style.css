@@ -1,0 +1,286 @@
+/* line 1, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* line 2, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 3, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+:focus, :active {
+  outline: none; }
+
+/* line 4, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+a:focus, a:active {
+  outline: none; }
+
+/* line 5, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+nav, footer, header, aside {
+  display: block; }
+
+/* line 6, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 7, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+input, button, textarea {
+  font-family: inherit; }
+
+/* line 8, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+input::-ms-clear {
+  display: none; }
+
+/* line 9, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+button {
+  cursor: pointer; }
+
+/* line 10, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 11, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+a, a:visited {
+  text-decoration: none; }
+
+/* line 12, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 13, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+ul li {
+  list-style: none; }
+
+/* line 14, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+img {
+  vertical-align: top; }
+
+/* line 15, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/* line 18, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.background {
+  background-image: url("/img/otkrit-ka.ru_fon-den-rozhdenija-krasivye-kartinki-46.jpg");
+  background-size: contain;
+  height: 100%;
+  background-position: center;
+  width: 100%; }
+  /* line 21, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+  .background img {
+    max-width: 330px;
+    z-index: 0; }
+
+/* line 26, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 36, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+._container {
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 0 15px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+  @media (max-width: 348px) {
+    /* line 36, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+    ._container {
+      padding: 0px 10px; } }
+  @media (max-width: 330px) {
+    /* line 36, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+    ._container {
+      padding: 0px 7px; } }
+
+/* line 52, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px 0px 0px; }
+
+/* line 66, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 70, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+  .menu__list li {
+    padding: 10px 6px 0px 0px; }
+    @media (max-width: 330px) {
+      /* line 70, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+      .menu__list li {
+        padding: 10px 3px 0px 0px; } }
+    /* line 75, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+    .menu__list li:first-child {
+      padding: 10px 6px 0px 0px; }
+      @media (max-width: 330px) {
+        /* line 75, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+        .menu__list li:first-child {
+          padding: 10px 3px 0px 0px; } }
+
+/* line 85, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.menu__item {
+  margin: 0px auto;
+  text-shadow: 1px 1px #000000; }
+
+/* line 89, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.a {
+  color: #a601a6; }
+
+/* line 92, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.b {
+  color: blue; }
+
+/* line 96, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.c {
+  color: #02ff02; }
+
+/* line 99, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.d {
+  color: yellow; }
+
+/* line 102, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.f {
+  color: orange; }
+
+/* line 105, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.g {
+  color: red; }
+
+/* line 109, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.header__music {
+  padding: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 117, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.header__button {
+  text-align: center; }
+
+/* line 123, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.btn {
+  padding: 15px 30px;
+  border-radius: 20%;
+  background-color: chartreuse; }
+  /* line 128, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+  .btn a {
+    color: #011e73; }
+  /* line 132, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+  .btn:hover {
+    color: red; }
+
+/* line 139, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.header__image {
+  text-align: center; }
+  /* line 142, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+  .header__image img {
+    max-width: 210px;
+    margin: 0px 0px -20px 0px; }
+
+/* line 148, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  @media (max-width: 450px) {
+    /* line 148, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+    .main {
+      display: block; } }
+
+/* line 160, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.main__congrats {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0px 0px 0px; }
+  @media (max-width: 450px) {
+    /* line 160, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+    .main__congrats {
+      padding: 100px 20px 0px 20px; } }
+  @media (min-width: 663px) {
+    /* line 160, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+    .main__congrats {
+      padding: 100px 20px 0px 20px; } }
+
+/* line 179, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.main__pole {
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+  border-radius: 17px;
+  max-width: 330px;
+  color: white; }
+
+/* line 186, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.background {
+  background: url(/img/image115-22.jpg); }
+
+/* line 193, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.block {
+  min-height: 500px;
+  border-radius: 17px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#16afbd), to(#9708b3));
+  background: linear-gradient(0deg, #16afbd, #9708b3); }
+
+/* line 210, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.main__title {
+  text-align: center;
+  font-size: 18px;
+  font-family: Lucida Console, Courier, monospace;
+  padding: 10px 0px; }
+
+/* line 217, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.main__sub-title {
+  text-align: center;
+  font-size: 16px;
+  padding: 6px 0px;
+  font-family: Lucida Console, Courier, monospace; }
+
+/* line 225, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.main__text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Lucida Console, Courier, monospace; }
+  /* line 229, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+  .main__text img {
+    max-width: 100px; }
+
+/* line 236, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.txt {
+  font-size: 18px;
+  line-height: 23px; }
+
+/* line 248, ../../../../Documents/Happy Birthday/Irina Vasil`evna/#source/scss/style.scss */
+.nextpage__images {
+  text-align: center; }
